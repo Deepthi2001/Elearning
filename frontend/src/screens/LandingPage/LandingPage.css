@@ -1,0 +1,78 @@
+.title {
+  margin: 0;
+  text-align: center;
+  font-size: 60px;
+}
+.subtitle {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+}
+.intro-text {
+  width: 70%;
+}
+.main {
+  min-height: 110vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../../background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landingbutton {
+  width: 150px;
+  height: 55px;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .buttonContainer {
+    padding: 1 1px;
+  }
+  .main {
+    padding-left: 20px;
+    height: 100px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .landingbutton {
+    width: 100px;
+    height: 40px;
+  }
+  .intro-text {
+    width: 100%;
+  }
+}
+/*
+@media only screen and (min-width: 1200px) {
+  .buttonContainer {
+    padding: 1px;
+  }
+  .title {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .landingbutton {
+    width: 100px;
+    height: 40px;
+  }
+  .main {
+    padding-left: 40px;
+    height: 100px;
+  }
+}*/
