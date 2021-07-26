@@ -13,14 +13,30 @@
    - Courses (embedded videos and resource links)
 
 ## Tech Stack Used:
- - NodeJS & ExpressJS
- - MongoDB for backend
- - ReactJS (basic frontend)
+  - ReactJS, Bootstrap, HTML/CSS - frontend
+ - NodeJS & ExpressJS - backend
+ - MongoDB - database
  - User Authentication using JWTs
  ## Other
  - Cloudinary for image(profile pic) storage
- - Postman for user and tasks json manual check
+ - Postman for building,updating and testing user and task APIs
  - Redux devtools for our action status (error,success,fail)
+## API 
+<h4> Users </h4>
+<ul>
+  <li> <b>POST</b> /api/users/ </li>
+  <li> <b>POST</b>  /api/users/login  </li>
+  <li> <b>DELETE</b>  /api/users/profile </li>
+</ul>
+
+<h4> Tasks </h4>
+<ul>
+  <li> <b>GET</b> /api/notes </li>
+  <li> <b>POST</b> /api/notes/create </li>
+  <li> <b>DELETE</b> /api/notes/:id </li>
+  <li> <b>PUT</b> /api/notes/:id </li>
+  <li> <b>GET</b> /api/notes/:id </li>
+</ul>
 
 ## Running Client Side
    - cd into the frontend folder 
