@@ -7,6 +7,12 @@
 .profileContainer {
   display: flex;
   margin: 20px;
+  background-color: hsla(192, 5%, 18%, 0.6);
+  padding: 50px 30px;
+  min-width: 400px;
+  width: 50%;
+  max-width: 600px;
+  color: beige;
 }
 @media only screen and (max-width: 768px) {
   .profileContainer {
