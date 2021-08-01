@@ -30,3 +30,6 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+.main {
+  background-image: url("../../image.jpg");
+}
