@@ -7,15 +7,7 @@ const MainScreen = ({ title, children }) => {
     <div className="mainback">
       <Container>
         <Row>
-          <div className="page">
-            {title && (
-              <>
-                <h1 className="heading">{title}</h1>
-                <hr />
-              </>
-            )}
-            {children}
-          </div>
+          <div className="page">{children}</div>
         </Row>
       </Container>
     </div>
