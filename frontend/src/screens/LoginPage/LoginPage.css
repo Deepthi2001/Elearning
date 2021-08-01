@@ -1,4 +1,10 @@
 .loginContainer {
+  background-color: hsla(32, 15%, 58%, 0.6);
+  padding: 50px 30px;
+  min-width: 400px;
+  width: 50%;
+  max-width: 600px;
+  color: beige;
   display: flex;
   flex-direction: column;
   margin: 20px;
