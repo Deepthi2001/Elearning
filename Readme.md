@@ -67,7 +67,7 @@ npm start
   - Open your browser at `localhost:5000` to view the application
  ```
 npm install --save
-npm start dev
+npm run dev
 ```
 
 ## Git commands
